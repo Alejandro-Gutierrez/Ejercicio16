@@ -91,8 +91,6 @@ while(op2):
                 if(Decicion=="no"):
                     op3=False 
                 
-        
-
     if(dato==3):
         op3=True
         while(op3):
@@ -117,6 +115,8 @@ while(op2):
                 Decicion=input("Quieres Buscar Otro si/no: ")
                 if(Decicion=="no"):
                     op3=False 
+
+
     if(dato==4):
         print("Proximamente")
 
