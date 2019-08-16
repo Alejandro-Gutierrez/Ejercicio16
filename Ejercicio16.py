@@ -67,6 +67,7 @@ while(op2):
                         op3=False                    
                 else:
                     print("Algo Fallo")
+                     print(" ")
     
     if(dato==2):
         op3=True
@@ -114,14 +115,24 @@ while(op2):
                  
                 Decicion=input("Quieres Buscar Otro si/no: ")
                 if(Decicion=="no"):
-                    op3=False 
+                    op3=False
+                    print(" ")
 
 
     if(dato==4):
-        print("Proximamente")
+        print("NIF"+ "\t"+" Nombre")
+        for traer in Cliente:
+            print(traer , "\t" + Cliente[traer]["Nombre"])
+        
+        print(" ")
+
 
     if(dato==5):
-        print("Proximamente")
+
+        for traer in Cliente:
+            if Cliente[traer]["Preferencia"] == "True":
+                print(traer , "\t" + Cliente[traer]["Nombre"])
+        print(" ")
 
     if(dato==6):
        op2=False
